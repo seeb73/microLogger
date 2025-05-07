@@ -17,7 +17,8 @@ Pierwotnie powstał prosty program do szybkiego logowania QSO i generowania plik
 * **Komunikacja Sieciowa (Klient):**
     * Wysyłanie danych STATUS i LOGGED w standardzie kompatybilnym z popularnymi programami (np. JTDX).
     * Przesyłanie surowego rekordu ADIF każdej zalogowanej łączności przez UDP na wskazany adres serwera.
-* **Wsparcie Serwerowe (dla Akcji Dyplomowych):**
+    * Obsługa QRZ.com bez klucza i subskrypcji dla pobrania informacji o stacji.
+* **Wsparcie Serwerowe (dla Akcji Dyplomowych: HamEvents ):**
     * Odbiór i przetwarzanie ADIF przesłanego przez logger.
     * Zapis QSO do bazy danych serwera, jeśli operator uczestniczy w skonfigurowanej akcji dyplomowej.
     * Logowanie połączeń od operatorów spoza akcji (wraz z IP/portem).
@@ -33,7 +34,7 @@ Pierwotnie powstał prosty program do szybkiego logowania QSO i generowania plik
 3.  QSO jest natychmiast zapisywane do lokalnego pliku ADIF.
 4.  Program jednocześnie wysyła przez sieć (UDP) dane STATUS i LOGGED (w formacie JTDX) oraz surowy rekord ADIF tej łączności na adres serwera skonfigurowany przez operatora.
 
-**Część Serwerowa (Opcjonalna - dla Akcji Dyplomowych):**
+**Część Serwerowa (Opcjonalna - dla Akcji Dyplomowych): https://github.com/seeb73/HamEvents **
 
 1.  Serwer nasłuchuje na skonfigurowanym porcie UDP.
 2.  Po odebraniu danych, serwer weryfikuje i czyści rekord ADIF.
