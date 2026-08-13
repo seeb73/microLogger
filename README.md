@@ -38,7 +38,7 @@ Pierwotnie powstał prosty program do szybkiego logowania QSO i generowania plik
 7.  Wsparcie cache, hamQTH, qrz.com
 8.  Synchronizacja pól/id z Qlog
 9.  Możliwość forwardowania odebranych QSO do innych aplikacji po UDP
-<img src="https://github.com/seeb73/microLogger/blob/main/%C2%B5Logger-0.2-build100.jpg?raw=true" width="250">
+<img src="https://github.com/seeb73/microLogger/blob/main/%C2%B5Logger-0.2-build100.jpg?raw=true">
  
 **Część Serwerowa (Opcjonalna - dla Akcji Dyplomowych): https://github.com/seeb73/HamEvents **
 
@@ -47,6 +47,8 @@ Pierwotnie powstał prosty program do szybkiego logowania QSO i generowania plik
 3.  Jeśli operator (na podstawie znaku z ADIF) uczestniczy w akcji dyplomowej hostowanej przez serwer, QSO jest zapisywane w bazie danych tej akcji.
 4.  Łączności od operatorów nieuczestniczących w akcji są logowane (np. do celów diagnostycznych).
 5.  Aktywni operatorzy biorący udział w akcji są wyświetlani na dedykowanej stronie serwera przez czas określony w konfiguracji, informując o ich ostatniej częstotliwości pracy.
+<img src="https://github.com/seeb73/microLogger/blob/main/Hamevents-i.jpg?raw=true" width="500">
+
 
 ## Podsumowanie
 
