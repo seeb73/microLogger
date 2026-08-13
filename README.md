@@ -47,7 +47,7 @@ Pierwotnie powstał prosty program do szybkiego logowania QSO i generowania plik
 3.  Jeśli operator (na podstawie znaku z ADIF) uczestniczy w akcji dyplomowej hostowanej przez serwer, QSO jest zapisywane w bazie danych tej akcji.
 4.  Łączności od operatorów nieuczestniczących w akcji są logowane (np. do celów diagnostycznych).
 5.  Aktywni operatorzy biorący udział w akcji są wyświetlani na dedykowanej stronie serwera przez czas określony w konfiguracji, informując o ich ostatniej częstotliwości pracy.
-<img src="https://github.com/seeb73/microLogger/blob/main/Hamevents-i.jpg?raw=true" width="500">
+<img src="https://github.com/seeb73/microLogger/blob/main/Hamevents-i-%C2%B5Logger-zostali-para.jpg" width="500">
 
 
 ## Podsumowanie
